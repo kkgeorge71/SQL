@@ -1,0 +1,21 @@
+Create Table crack_corn (id INTEGER Primary Key, name TEXT, Flavor text, price INTEGER, Quanity INTEGER);
+
+INSERT Into crack_corn VALUES(1, "Caramel", "plain", 10, 15);
+INSERT Into crack_corn VALUES(2, "Vanilla", "white", 11,14 );
+INSERT Into crack_corn VALUES(3, "Chocolate", "dark", 12,13);
+INSERT Into crack_corn VALUES(4, "Lemon", "Sour", 13, 12);
+INSERT Into crack_corn VALUES(5, "Birthday", "Sweet", 14, 11);
+INSERT Into crack_corn VALUES(6, "Spicey", "Hot", 15, 10);
+INSERT Into crack_corn VALUES(7, "Sour",  "Sour", 16, 9);
+Insert Into crack_corn VALUES(8, "Mixed", "Combo", 17, 8);
+Insert Into crack_corn VALUES(9, "Nutty", "Peanut", 18, 7);
+Insert Into crack_corn VALUES(10, "Butter", "YUM", 19, 6);
+Insert Into crack_corn VALUES(11, "caramel sauce", "Caramel", 20, 5);
+Insert Into crack_corn Values(12, "Popcorn", "None", 20, 4);
+Insert Into crack_corn VAlues(13, "Baking Pans", 0,21,3);
+Insert Into crack_corn Values(14, "bags", 0, 22, 300);
+Insert Into crack_corn values(15, "labels", 0, 23, 100);
+
+SELECT * from crack_corn 
+Where Quanity <=5 
+Order by price desc;
